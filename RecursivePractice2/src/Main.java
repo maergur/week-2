@@ -23,8 +23,6 @@ public class Main {
                 System.out.println(num + " Asal bir sayı değildir.");
             }
         }
-
-        scanner.close();
     }
 
     // Recursive asal sayı kontrolü yaparken 2'ye bölme sebebimiz recursive methodu limitlemek
