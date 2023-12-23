@@ -27,7 +27,7 @@ public class Main {
         Method kendi içinde loop'a girerek girilen sayıdan 0 veya negatife gidiyor.
 
         Ancak o noktada return'e düştüğü için bu sefer kendini yoyo gibi başa sarıyor.
-
+a
         Umarım açıklayacı olmuştur :)
          */
 
