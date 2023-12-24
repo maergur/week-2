@@ -21,7 +21,7 @@ public class Main {
 
         // Elemanın bilgilerini yazdırıyoruz.
 
-        e1.printEmployeeInfo();
+        System.out.println(e1.toString());
 
     }
 }

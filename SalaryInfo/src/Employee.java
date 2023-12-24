@@ -60,13 +60,13 @@ double taxBonusSalary() {
         return  salary + (bonus() - tax());
 }
 
-void printEmployeeInfo () {
+public String toString () {
 
-        System.out.print(" Eleman İsmi: "+ this.name + "\n Maaşı: " + this.salary +
+        return " Eleman İsmi: "+ this.name + "\n Maaşı: " + this.salary +
                 "\n Çalışma Saati: " + this.workHours + "\n Başlangıç Yılı: "+ this.hireYear
                 + "\n Vergi: " + tax() + "\n Bonus: " + bonus() +"\n Maaş Artışı: " + raiseSalary() +
                 "\n Vergi ve Bonuslar ile Birlikte Maaş: " + taxBonusSalary() + "\n Toplam Maaş: "+
-                totalSalary());
+                totalSalary();
 
 }
 
