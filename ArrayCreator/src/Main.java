@@ -27,5 +27,6 @@ public class Main {
         // Ekrana bastırıyoruz.
 
         System.out.println("Sıralanmış Diziniz: " + Arrays.toString(list));
+
     }
 }
